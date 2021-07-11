@@ -15,10 +15,10 @@ const Navbar = () => {
     return (
       <div className="navbar">
         <h1>Chat App</h1>
-        <Link to="/home" style={{ textDecoration: "none" }}>
+        <Link to="/" style={{ textDecoration: "none" }}>
           <h2>Home</h2>
         </Link>
-        <Link to="/home" onClick={logout} style={{ textDecoration: "none" }}>
+        <Link to="/" onClick={logout} style={{ textDecoration: "none" }}>
           <h2>Log Out</h2>
         </Link>
       </div>

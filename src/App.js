@@ -30,13 +30,11 @@ function App() {
   return (
     <div className="App">
       <GlobalCtx.Provider value={{ gState, setGState }}>
-        <Route path="/" component={Navbar} />
-
+        <Navbar />
         <Switch>
-          {/* <Route exact path="/" render={(rp) => <Home {...rp} />} /> */}
-          <Route exact path="/home" render={(rp) => <Home {...rp} />} />
-          <Route path="/login" render={(rp) => <Login {...rp} />} />
-          <Route path="/signup" render={(rp) => <Signup {...rp} />} />
+          <Route exact path="/login" render={(rp) => <Login {...rp} />} />
+          <Route exact path="/signup" render={(rp) => <Signup {...rp} />} />
+          <Route path="/" render={(rp) => <Home {...rp} />} />
         </Switch>
       </GlobalCtx.Provider>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Nav from "./components/nav";
+import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <GlobalCtx.Provider value={{ gState, setGState }}>
-        <Route path="/" component={Nav} />
+        <Route path="/" component={Navbar} />
 
         <Switch>
           {/* <Route exact path="/" render={(rp) => <Home {...rp} />} /> */}

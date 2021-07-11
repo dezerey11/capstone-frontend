@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { GlobalCtx } from "../App";
+import "./navbar.css";
 
-const Nav = () => {
+const Navbar = () => {
   const { gState } = React.useContext(GlobalCtx);
 
   const logout = () => {
@@ -30,4 +31,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navbar;

@@ -28,6 +28,7 @@
   font-size: 20px;
   border-radius: 20px;
   font-family: "Lobster", cursive;
+  cursor: pointer;
 }
 
 #form > button:hover {
@@ -57,7 +58,3 @@
   background: #241d2f;
   color: white;
 }
-
-/* #messages > li:nth-child(even) {
-  background: #b47272;
-} */

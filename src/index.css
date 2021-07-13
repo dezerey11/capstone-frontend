@@ -22,6 +22,7 @@ code {
   margin: 5x;
   border-radius: 50px;
   font-family: "Lobster", cursive;
+  cursor: pointer;
 }
 
 .button:hover {

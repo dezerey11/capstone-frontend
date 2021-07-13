@@ -11,8 +11,8 @@ export const GlobalCtx = React.createContext(null);
 
 function App() {
   const [gState, setGState] = React.useState({
-    // url: "https://capstone-websockets.herokuapp.com/",
-    url: "http://localhost:3000/",
+    url: "https://capstone-websockets.herokuapp.com/",
+    // url: "http://localhost:3000/",
     token: null,
     ready: false,
   });

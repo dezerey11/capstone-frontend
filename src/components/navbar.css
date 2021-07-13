@@ -7,6 +7,11 @@
   font-family: "Lobster", cursive;
 }
 
+.nav-link:link {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-link:visited {
   text-decoration: none;
   color: white;

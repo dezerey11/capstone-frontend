@@ -51,7 +51,10 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (chatMessage) {
-      socket.emit("chat message", chatMessage);
+      socket.emit("chat message", {
+        text: chatMessage,
+        token: gState.token,
+      });
       setChatMessage("");
     }
   };
@@ -64,7 +67,10 @@ const Home = () => {
     <div className="home">
       <ul id="messages">
         {messages.map((message, i) => (
-          <li key={i}>{message.text}</li>
+          <li key={i}>
+            <strong>{message.username}: </strong>
+            {message.text}
+          </li>
         ))}
       </ul>
       <form id="form" action="" onSubmit={handleSubmit}>

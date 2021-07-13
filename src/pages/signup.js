@@ -58,11 +58,13 @@ const Signup = (props) => {
         />
         <br />
         <br />
-        <input type="submit" name="signup" value="Sign Up" />
+        <input type="submit" name="signup" value="Sign Up" className="button" />
       </form>
       <br />
       <Link to="login">
-        <button role="link">Return to Log In</button>
+        <button role="link" className="button">
+          Return to Log In
+        </button>
       </Link>
     </div>
   );

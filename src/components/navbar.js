@@ -14,11 +14,13 @@ const Navbar = () => {
   if (gState.token) {
     return (
       <div className="navbar">
-        <h1>Chat App</h1>
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <h2>Home</h2>
-        </Link>
-        <Link to="/" onClick={logout} style={{ textDecoration: "none" }}>
+        <h1 className="title">Chat App</h1>
+        <Link
+          to="/"
+          onClick={logout}
+          style={{ textDecoration: "none" }}
+          className="nav-link"
+        >
           <h2>Log Out</h2>
         </Link>
       </div>

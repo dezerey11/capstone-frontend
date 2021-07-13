@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Lobster", cursive;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.button {
+  color: #e3dff1;
+  background: #241d2f;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  margin: 5x;
+  border-radius: 50px;
+  font-family: "Lobster", cursive;
+}
+
+.button:hover {
+  color: #241d2f;
+  background: #e3dff1;
+  border: none;
+  padding: 10px;
+  margin: 5x;
+  border-radius: 50px;
+  font-family: "Lobster", cursive;
+}
+
+input {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+  padding: 10px;
 }

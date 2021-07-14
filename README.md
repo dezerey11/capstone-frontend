@@ -27,8 +27,6 @@ A user is able to see a log in or sign up page when they open the link to the ap
 
 <img src="public/ScreenShots/SignIn-WS.png" alt="Signup Page" width="400px" >
 
-<img src="public/ScreenShots/Login-WS.png" alt="Login Page" width="400px" >
-
 <img src="public/ScreenShots/AppInUse-WS.png" alt="Home Page" width="400px" >
 
 ## FUTURE UPDATES

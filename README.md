@@ -10,8 +10,9 @@ https://de-capstone-project.netlify.app/
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - React
+- Socket.io-client
 
 ## PROJECT SUMMARY
 

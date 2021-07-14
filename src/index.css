@@ -19,8 +19,8 @@ code {
   font-size: 20px;
   border: none;
   padding: 10px;
-  margin: 5x;
-  border-radius: 50px;
+  margin: 5px;
+  border-radius: 20px;
   font-family: "Lobster", cursive;
   cursor: pointer;
 }
@@ -30,8 +30,8 @@ code {
   background: #e3dff1;
   border: none;
   padding: 10px;
-  margin: 5x;
-  border-radius: 50px;
+  margin: 5px;
+  border-radius: 20px;
   font-family: "Lobster", cursive;
 }
 
@@ -39,4 +39,20 @@ input {
   font-family: "Righteous", cursive;
   font-size: 20px;
   padding: 10px;
+  color: #241d2f;
+  background: #e3dff1;
+  border-radius: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.page-title {
+  color: #241d2f;
+  font-size: 40px;
 }

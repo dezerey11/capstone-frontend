@@ -10,6 +10,8 @@
 .nav-link:link {
   text-decoration: none;
   color: white;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 .nav-link:visited {
@@ -20,4 +22,10 @@
 .nav-link:hover {
   text-decoration: none;
   color: yellow;
+}
+
+.nav-title {
+  color: #e3dff1;
+  outline: auto;
+  padding: 10px;
 }

@@ -14,7 +14,7 @@ const Navbar = () => {
   if (gState.token) {
     return (
       <div className="navbar">
-        <h1 className="title">Chat App</h1>
+        <h1 className="nav-title">Chatty Stop</h1>
         <Link
           to="/"
           onClick={logout}
@@ -28,7 +28,7 @@ const Navbar = () => {
   }
   return (
     <div className="navbar">
-      <h1>Chat App</h1>
+      <h1 className="nav-title">Chatty Stop</h1>
     </div>
   );
 };

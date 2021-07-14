@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { GlobalCtx } from "../App";
+import "./login.css";
 
 const Login = (props) => {
   const { gState, setGState } = React.useContext(GlobalCtx);
@@ -38,7 +39,7 @@ const Login = (props) => {
 
   return (
     <div>
-      <h1>Log In</h1>
+      <h1 className="page-title">Log In</h1>
       <br />
       <form onSubmit={handleSubmit}>
         <h3>Username</h3>
